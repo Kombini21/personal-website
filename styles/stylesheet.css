@@ -1,22 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,500&display=swap');
 
-
-
+body{
+    margin: 0;
+}
 .heading{
 
+    font-family: 'Roboto', sans-serif;
     display: flex;
+    width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    border: 1px red solid;
     height: 80px;
+    box-shadow: 0 4px 2px -2px rgb(218, 218, 218);
+}
+
+.name{
+    
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.home1,
+.cv1,
+.projetos{
+
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 50px;
+    gap: 80px;
+    color: black;
+    font-weight: 500;
+    border: 1px rgb(170, 170, 170) solid;
+    padding: 8px;
+    border-radius: 10px;
+    
+}
+
+.home1:hover,
+.cv1:hover,
+.projetos:hover{
+
+    border: 1px rgb(92, 92, 92) solid;
 }
 
 
-.header-elements{
+.container{
 
-
-
-    display: flex;
-    gap: 80px;
+display: flex;
+justify-content: center;
 }
 
 
@@ -24,8 +55,12 @@
     
     margin-top: 50px;
     display: flex;
-    justify-content: center;
-    border: 1px red solid;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items:flex-start;
+    width: 900px;
+    box-shadow: 0 0px 1px 2px rgb(240, 240, 240);
+    
 
 }
 
@@ -34,4 +69,18 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.me{
+
+    height: 200px;
+    margin-right: 100px;
+    border-radius: 50%;
+}
+
+.introducao{
+
+    font-family: 'Roboto', sans-serif;
+    
+
 }
