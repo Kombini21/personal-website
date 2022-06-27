@@ -161,25 +161,35 @@ justify-content: center;
 .project-button{
 
     position: absolute;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .project-name{
 
     
     top: 2%;
-    left: 42%;
+    left: 50%;
+    transform: translateX(-50%); 
     font-size: 24px;
 }
 
 .project-description{
 
-    left: 20%;
+    left: 50%;
+    transform: translateX(-50%); 
     top: 30%;
     font-size: 18px;
 }
 
 .project-button{
 
-    left: 44%;
+    left: 50%;
+    transform: translateX(-50%); 
     top: 70%;
     font-size: 14px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 3vh;
+    height: 3vh;
 }
