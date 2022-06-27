@@ -193,3 +193,77 @@ justify-content: center;
     width: 3vh;
     height: 3vh;
 }
+
+@media only screen and (max-width: 740px) {
+
+    .name {
+        display:none;
+    }
+
+    .home1, .cv1, .projetos {
+
+        margin-left: 20px;
+        margin-right: 2vh;
+        font-size: 16px;
+        
+    }
+
+    .me{
+        height:120px;
+    }
+
+    .home {
+
+        width: none;
+        text-align: center;
+    }
+
+    .introducao{
+
+        width: 300px;
+    }
+
+    .img-1 {
+
+        width: 300px;
+    }
+
+    .left-elements {
+
+        display:none;
+    }
+
+    .heading {
+    }
+
+
+    .projects-p, .projects-p-1 {
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .project-1 {
+
+        margin-top: 25px;
+    }
+
+    .project-description {
+
+        font-size: 14px;
+    }
+
+    .project-name {
+
+        font-size: 16px;
+    }
+
+    .project-button{
+
+        top:80%;
+    }
+}
+
+@media only screen and (max-width: 896px) and (min-width:740px) {
+    
+}
